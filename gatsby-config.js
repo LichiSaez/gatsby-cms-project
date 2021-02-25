@@ -2,5 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby CMS",
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-sass'
+  ],
 };
