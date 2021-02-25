@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Layout from "../components/layout";
 
 const ContactPage = () => {
     return (
         <div>
-            <Header />
+            <Layout>
             <h1>Contact Me</h1>
             <p>Email: lisandrosaezamelio@gmail.com</p>
-            <Footer />
+            </Layout>
         </div>
     );
 };
